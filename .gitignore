@@ -1,0 +1,12 @@
+# Ignore the vendor directory (for PHP dependencies)
+vendor/
+
+# Ignore environment files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
