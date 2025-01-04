@@ -1,0 +1,110 @@
+.medievalsharp-regular {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #fdd17c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 110px;
+}
+
+form {
+  border: solid black 1px;
+  padding: 67px 40px;
+  width: 300px;
+}
+
+input {
+  width: 90%;
+  margin-bottom: 16px;
+  border: none;
+  padding: 15px;
+  font-family: "MedievalSharp", cursive;
+  font-size: medium;
+}
+
+.signin-btn {
+  padding: 25px;
+  border: none;
+  background-color: #b83f3f;
+  color: #fdeacd;
+  width: 100%;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #a12121;
+  }
+}
+
+.signout-btn {
+  padding: 15px 30px;
+  border: none;
+  background-color: #b83f3f;
+  color: #fdeacd;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-family: "MedievalSharp", cursive;
+
+  &:hover {
+    background-color: #a12121;
+  }
+}
+
+.label {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+}
+
+p,
+a {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-size: large;
+}
+
+.albus {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40vw;
+}
+
+.message {
+  background-color: #fdeacd;
+  border-radius: 47px 47px 47px 0px;
+  font-size: 32px;
+  padding: 67px;
+  font-family: "MedievalSharp", cursive;
+}
+
+.message-signedout {
+  border: solid 1px black;
+  font-size: large;
+  padding: 40px;
+  font-family: "MedievalSharp", cursive;
+
+  a {
+    font-size: large;
+  }
+}
